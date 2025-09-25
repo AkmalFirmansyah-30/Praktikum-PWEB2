@@ -13,8 +13,8 @@ $routes->get('/buku/tambah', 'Buku::tambah');
 $routes->post('/buku/simpan', 'Buku::simpan');
 $routes->get('/buku/ubah/(:num)', 'Buku::ubah/$1');
 $routes->post('/buku/update/(:num)', 'Buku::update/$1');
-$routes->get('/buku/delete/(:num)', 'Buku::delete/$1');   // pakai GET biar gampang
-$routes->get('/buku/(:num)', 'Buku::detail/$1');          // taruh paling bawah
+$routes->delete('/buku/(:num)', 'Buku::delete/$1');   // ini untuk form DELETE
+$routes->get('/buku/(:num)', 'Buku::detail/$1');
 
 // Anggota
 $routes->get('/anggota', 'Anggota::index');
