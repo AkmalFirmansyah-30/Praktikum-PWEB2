@@ -20,10 +20,7 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/buku">Daftar Buku</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/anggota">Daftar Anggota</a>
+          <a class="nav-link" href="/dosen">Daftar Dosen</a>
         </li>
       </ul>
     </div>
